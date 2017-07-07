@@ -1,0 +1,4 @@
+<%= link_to "New Recipe", new_recipe_path %>
+<% @recipes.each do |r| %>
+  <h3><%= link_to r.name, recipe_path(r) %></h3>
+<% end %>

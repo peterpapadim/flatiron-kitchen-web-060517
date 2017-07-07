@@ -1,3 +1,11 @@
+# == Schema Information
+#
+# Table name: ingredients
+#
+#  id   :integer          not null, primary key
+#  name :string
+#
+
 require 'spec_helper'
 
 describe 'Ingredient' do
